@@ -132,7 +132,7 @@ _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt -experiment yes``_
 
 |`-searchWindow`
 |An integer
-|Determine the extent to which current recognized word is searched in the respective subtitle dialogue. Default value is 3.
+|Determine the extent to which current recognised word is searched in the respective subtitle dialogue. Default value is 3.
 
 _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt -searchWindow 6``_
 
@@ -216,9 +216,9 @@ _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt --quick-dict yes``_
 
 _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt -verbose info``_
 
-|`-- display-recognized`
+|`-- display-recognised`
 |`yes`, `no`
-|Determine whether to display the recognized words and matching status on stdout or not.
+|Determine whether to display the recognised words and matching status on stdout or not.
 
 _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt --display-recognised no``_
 
