@@ -11,7 +11,7 @@ https://github.com/saurabhshri/simple-yet-powerful-srt-subtitle-parser-cpp[srtpa
 	- extracting and stripping HTML and other styling tags from subtitle text.
 	- extracting and stripping speaker names.
 	- extracting and stripping non dialogue texts.
-5. Easy to extend and add new  functionalities.
+5. Easy to extend and add new functionalities.
 
 == How to use srtparser.h
 
