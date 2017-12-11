@@ -222,7 +222,7 @@ bool PocketsphinxAligner::findAndSetPhonemeTimes(cmd_ln_t *config, ps_decoder_t 
     int frame_rate = cmd_ln_int32_r(config, "-frate");
     ps_seg_t *iter = ps_seg_iter(ps);
 
-    recognisedBlock currentBlock; //storing recognised words and their timing information
+    recognisedBlock currentBlock; //storing recognized words and their timing information
 
     while (iter != nullptr) {
         int32 sf, ef, pprob;
@@ -312,17 +312,17 @@ recognisedBlock PocketsphinxAligner::findAndSetWordTimes(cmd_ln_t *config, ps_de
         * Suppose this is the case :
         *
         * Actual      : [Why] would you use a tomato just why
-        * Recognised  : would you use a tomato just [why]
+        * Recognised: would you use a tomato just [why]
         *
-        * So, if we search whole recognised sentence for actual words one by one, then Why[1] of Actual will get associated
-        * with why[7] of recognised. Thus limiting the number of words it can look ahead.
+        * So, if we search whole recognized sentence for actual words one by one, then Why[1] of Actual will get associated
+        * with why[7] of recognized. Thus limiting the number of words it can look ahead.
         *
         */
 
         int searchWindowSize = _searchWindow;
 
         /*
-        Recognised  : so have you can you've brought seven
+        Recognised: so have you can you've brought seven
         |
         ---------------
         |               |
