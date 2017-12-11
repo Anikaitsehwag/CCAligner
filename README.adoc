@@ -469,7 +469,7 @@ _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt -verbose no``_
 
 |`--display-recognised`
 |`yes`, `no`
-|Determine whether to display the recognized words and matching status on stdout or not.
+|Determine whether to display the recognised words and matching status on stdout or not.
 
 _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt --display-recognised no``_
 
