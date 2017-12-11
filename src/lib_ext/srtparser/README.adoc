@@ -69,7 +69,7 @@ _E.g.: ``SubtitleParser *parser = subParserFactory->getParser();``_
 | Returns the Subtitle as SubtitleItem object.
 
 _E.g.: ``std::vector<SubtitleItem*> sub = parser->getSubtitles();``_
-
+ 
 | SubtitleParser
 | std::string
 | `getFileData()`
