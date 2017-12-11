@@ -102,7 +102,7 @@ You will also need to install http://www.perl.org/get.html[Perl] and move instal
 
 3. Make sure the subtitles are clean and are in proper SRT format.
 
-4. The wav file should be 16 bit PCM mono sampled at 16KHz. To generate the wavfile using a video through FFmpeg, you may :
+4. The wav file should be 16 bit PCM mono sampled at 16KHz. To generate the wav file using a video through FFmpeg, you may :
 
     ./ffmpeg -i input.video -bits_per_raw_sample 16 -ar 16000 -ac 1 output.wav
 
