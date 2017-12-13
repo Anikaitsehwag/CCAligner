@@ -314,8 +314,8 @@ recognisedBlock PocketsphinxAligner::findAndSetWordTimes(cmd_ln_t *config, ps_de
         * Actual      : [Why] would you use a tomato just why
         * Recognised: would you use a tomato just [why]
         *
-        * So, if we search whole recognized sentence for actual words one by one, then Why[1] of Actual will get associated
-        * with why[7] of recognized. Thus limiting the number of words it can look ahead.
+        * So, if we search whole recognised sentence for actual words one by one, then Why[1] of Actual will get associated
+        * with why[7] of recognised. Thus limiting the number of words it can look ahead.
         *
         */
 
