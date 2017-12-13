@@ -216,7 +216,7 @@ _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt --quick-dict yes``_
 
 _E.g.: ``ccaligner -wav tbbt.wav -srt tbbt.srt -verbose info``_
 
-|`-- display-recognised`
+|`--display-recognised`
 |`yes`, `no`
 |Determine whether to display the recognised words and matching status on stdout or not.
 
